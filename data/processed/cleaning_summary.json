@@ -1,0 +1,71 @@
+{
+  "Ha Noi": {
+    "rows_raw": 26304,
+    "rows_clean": 26304,
+    "missing_before": 0,
+    "missing_after": 0,
+    "cols_dropped": [
+      "name",
+      "stations",
+      "snow",
+      "snowdepth",
+      "severerisk",
+      "dew",
+      "windgust",
+      "winddir",
+      "sealevelpressure",
+      "visibility",
+      "solarenergy",
+      "preciptype"
+    ]
+  },
+  "Da Nang": {
+    "rows_raw": 26304,
+    "rows_clean": 26304,
+    "missing_before": 0,
+    "missing_after": 0,
+    "cols_dropped": [
+      "name",
+      "stations",
+      "snow",
+      "snowdepth",
+      "severerisk",
+      "dew",
+      "windgust",
+      "winddir",
+      "sealevelpressure",
+      "visibility",
+      "solarenergy",
+      "preciptype"
+    ]
+  },
+  "TP.HCM": {
+    "rows_raw": 26304,
+    "rows_clean": 26304,
+    "missing_before": 0,
+    "missing_after": 0,
+    "cols_dropped": [
+      "name",
+      "stations",
+      "snow",
+      "snowdepth",
+      "severerisk",
+      "dew",
+      "windgust",
+      "winddir",
+      "sealevelpressure",
+      "visibility",
+      "solarenergy",
+      "preciptype"
+    ]
+  },
+  "NSMO": {
+    "rows_raw": 52608,
+    "rows_clean": 52608,
+    "missing_before": 0,
+    "missing_after": 0,
+    "outlier_strategy": "IQR detect, ghi log, KHONG xoa",
+    "load_impute": "median",
+    "price_impute": "forward fill + bfill edge"
+  }
+}

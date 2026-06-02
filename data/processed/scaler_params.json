@@ -1,0 +1,122 @@
+{
+  "Load_North": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 29048.42
+  },
+  "Load_Central": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 7871.793
+  },
+  "Load_South": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 22670.7
+  },
+  "Load_National": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 55580.7
+  },
+  "Load_North_lag1": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 29048.42
+  },
+  "Load_North_lag48": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 29048.42
+  },
+  "Load_North_lag336": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 29048.42
+  },
+  "Load_North_rolling_mean_48": {
+    "method": "minmax",
+    "min": 8585.722916666668,
+    "max": 25678.34814583333
+  },
+  "Load_Central_lag1": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 7871.793
+  },
+  "Load_Central_lag48": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 7871.793
+  },
+  "Load_Central_lag336": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 7871.793
+  },
+  "Load_Central_rolling_mean_48": {
+    "method": "minmax",
+    "min": 1965.6542291666665,
+    "max": 4813.242812500001
+  },
+  "Load_South_lag1": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 22670.7
+  },
+  "Load_South_lag48": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 22670.7
+  },
+  "Load_South_lag336": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 22670.7
+  },
+  "Load_South_rolling_mean_48": {
+    "method": "minmax",
+    "min": 6868.670520833333,
+    "max": 18972.079166666666
+  },
+  "Load_National_lag1": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 55580.7
+  },
+  "Load_National_lag48": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 55580.7
+  },
+  "Load_National_lag336": {
+    "method": "minmax",
+    "min": 0.0,
+    "max": 55580.7
+  },
+  "Load_National_rolling_mean_48": {
+    "method": "minmax",
+    "min": 17741.975000000002,
+    "max": 48344.37916666667
+  },
+  "Price_North": {
+    "method": "zscore",
+    "mean": 722.4813319176614,
+    "std": 726.3096662094919
+  },
+  "Price_Central": {
+    "method": "zscore",
+    "mean": 495.8151968166514,
+    "std": 653.4715997582052
+  },
+  "Price_South": {
+    "method": "zscore",
+    "mean": 580.4166995523416,
+    "std": 669.6615715901438
+  },
+  "Price_National": {
+    "method": "zscore",
+    "mean": 831.7089233241505,
+    "std": 710.2928133036353
+  }
+}

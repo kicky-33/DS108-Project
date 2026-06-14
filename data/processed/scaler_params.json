@@ -7,7 +7,7 @@
   "Load_Central": {
     "method": "minmax",
     "min": 0.0,
-    "max": 7871.793
+    "max": 6381.195
   },
   "Load_South": {
     "method": "minmax",
@@ -27,32 +27,32 @@
   "Load_North_lag48": {
     "method": "minmax",
     "min": 0.0,
-    "max": 29048.42
+    "max": 28361.159
   },
   "Load_North_lag336": {
     "method": "minmax",
     "min": 0.0,
-    "max": 29048.42
+    "max": 28361.159
   },
   "Load_North_rolling_mean_48": {
     "method": "minmax",
     "min": 8585.722916666668,
-    "max": 25678.34814583333
+    "max": 25300.47054166667
   },
   "Load_Central_lag1": {
     "method": "minmax",
     "min": 0.0,
-    "max": 7871.793
+    "max": 6381.195
   },
   "Load_Central_lag48": {
     "method": "minmax",
     "min": 0.0,
-    "max": 7871.793
+    "max": 5994.19
   },
   "Load_Central_lag336": {
     "method": "minmax",
     "min": 0.0,
-    "max": 7871.793
+    "max": 5994.19
   },
   "Load_Central_rolling_mean_48": {
     "method": "minmax",
@@ -87,36 +87,36 @@
   "Load_National_lag48": {
     "method": "minmax",
     "min": 0.0,
-    "max": 55580.7
+    "max": 53971.9
   },
   "Load_National_lag336": {
     "method": "minmax",
     "min": 0.0,
-    "max": 55580.7
+    "max": 53971.9
   },
   "Load_National_rolling_mean_48": {
     "method": "minmax",
     "min": 17741.975000000002,
-    "max": 48344.37916666667
+    "max": 47793.833333333336
   },
   "Price_North": {
     "method": "zscore",
-    "mean": 722.4813319176614,
-    "std": 726.3096662094919
+    "mean": 783.6465729488008,
+    "std": 744.3098042328858
   },
   "Price_Central": {
     "method": "zscore",
-    "mean": 495.8151968166514,
-    "std": 653.4715997582052
+    "mean": 518.618437812373,
+    "std": 675.6467364298214
   },
   "Price_South": {
     "method": "zscore",
-    "mean": 580.4166995523416,
-    "std": 669.6615715901438
+    "mean": 600.3436226654231,
+    "std": 689.7837318436434
   },
   "Price_National": {
     "method": "zscore",
-    "mean": 831.7089233241505,
-    "std": 710.2928133036353
+    "mean": 897.7128781117727,
+    "std": 720.1479561447813
   }
 }

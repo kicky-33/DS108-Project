@@ -1,40 +1,40 @@
 # Model Results — DS108 Validation Framework
 
-Generated: 2026-06-02 17:08
+Generated: 2026-06-11 11:23
 
-## MAE (MW)
+## MAPE (%)
 
-| run                            |   Central |   National |   North |   South |
-|:-------------------------------|----------:|-----------:|--------:|--------:|
-| Naive (lag48)                  |     319.9 |     2149.1 |  1003.9 |  1205.5 |
-| Linear Regression (no weather) |     269.2 |     1592   |   854   |   821.6 |
-| RF (no weather)                |     261   |     1087.1 |   769.3 |   512.9 |
-| RF (with weather)              |     257   |     1045.3 |   685.5 |   510   |
+| run                            |   North |   Central |   South |   National |
+|:-------------------------------|--------:|----------:|--------:|-----------:|
+| Naive (lag48)                  |     6.6 |      12   |     8.1 |        7.2 |
+| Linear Regression (no weather) |     5.1 |       8.3 |     5.6 |        4.6 |
+| RF (no weather)                |     4.5 |       8.1 |     3.5 |        3.1 |
+| RF (with weather)              |     4   |       8   |     3.4 |        2.9 |
 
 ## RMSE (MW)
 
-| run                            |   Central |   National |   North |   South |
-|:-------------------------------|----------:|-----------:|--------:|--------:|
-| Naive (lag48)                  |     452.3 |     3142.8 |  1439.2 |  1772.6 |
-| Linear Regression (no weather) |     375.3 |     2216.4 |  1174.4 |  1134.5 |
-| RF (no weather)                |     361.4 |     1580.2 |  1098.4 |   730.1 |
-| RF (with weather)              |     359.1 |     1501.8 |   960.8 |   727.5 |
+| run                            |   North |   Central |   South |   National |
+|:-------------------------------|--------:|----------:|--------:|-----------:|
+| Naive (lag48)                  |  1531.7 |     524.7 |  1772.6 |     3391.5 |
+| Linear Regression (no weather) |  1174.4 |     375.3 |  1134.5 |     2216.4 |
+| RF (no weather)                |  1098.6 |     361.5 |   730.1 |     1580.1 |
+| RF (with weather)              |   960.7 |     359   |   727.5 |     1501.8 |
 
-## Cải thiện MAE: RF (with weather) vs Naive (lag48)
+## Cải thiện MAPE: RF (with weather) vs Naive (lag48)
 
-- Central: +19.7%
-- National: +51.4%
-- North: +31.7%
+- North: +39.9%
+- Central: +33.6%
 - South: +57.7%
+- National: +59.2%
 
 ## Đóng góp weather features: RF-withW vs RF-noW
 
-- Central: +1.5%
-- National: +3.8%
-- North: +10.9%
-- South: +0.6%
+- North: +11.6%
+- Central: +1.2%
+- South: +1.3%
+- National: +5.2%
 
 ## Sanity Check
 
-Consistency MAE (pred_National vs sum pred_3 miền): 526.0 MW
+Consistency MAE (pred_National vs sum pred_3 miền): 526.1 MW
 Số điểm kiểm tra: 10,455

@@ -19,3 +19,7 @@ requests>=2.28
 # --- Notebook ---
 jupyterlab>=4.0
 ipykernel>=6.0
+
+# --- Dashboard ---
+streamlit>=1.35.0
+plotly>=5.22.0

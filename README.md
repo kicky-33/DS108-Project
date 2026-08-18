@@ -2,7 +2,7 @@
 
 Dự án thu thập và tiền xử lý dữ liệu phụ tải điện từ NSMO và dữ liệu khí tượng từ Visual Crossing để xây dựng bộ dữ liệu chuẩn cho bài toán dự báo phụ tải ngắn hạn.
 
-## 🚀 Hướng dẫn chạy Code (A-Z)
+## Hướng dẫn chạy Code (A-Z)
 
 Để tái lập toàn bộ bộ dữ liệu, hãy chạy các notebook trong thư mục `notebooks/` theo thứ tự sau:
 
